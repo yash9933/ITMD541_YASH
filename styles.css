@@ -1,6 +1,5 @@
 body{
     background-image: url("https://i.ibb.co/Wp3qPSw/pexels-photo-1762851.jpg");
-    background-size: cover;
     background-size: 105% 500%;
     background-repeat: no-repeat;
 }
@@ -17,6 +16,11 @@ div{
     font-family: cursive;
     color: #153147;
 }
+.list{
+    position: relative;
+    top: 7rem;
+    font-size: 20px;
+}
 #git{
     height: 50px;
     width: 50px;    
@@ -27,8 +31,8 @@ div{
     margin-left: 20px;
 }
 footer{
+    display: flex;
     position: absolute;
     top: 30rem;
     left: 50rem;
-    display: block;
 }
