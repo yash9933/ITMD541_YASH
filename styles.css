@@ -1,3 +1,29 @@
 body{
-    background-image: url="https://th.bing.com/th/id/R.71bd1f639a349be73e3a50aff654f6fe?rik=rQGoUv7Gu4dm3g&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fFree-Download-Abstract-Backgrounds-HD.jpg&ehk=QOpjZ8DwoI9TaAykD9GWkZ%2f%2bcOr5dXeCPpEvvEXrV5k%3d&risl=&pid=ImgRaw&r=0";
+    background-image: url("https://i.ibb.co/Wp3qPSw/pexels-photo-1762851.jpg");
+    background-size: cover;
+    background-size: 105% 500%;
+    background-repeat: no-repeat;
+}
+div{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+#head1{
+    font-family:Century Gothic;
+    color: #5c3c86;
+}
+#head2{
+    font-family: cursive;
+    color: #153147;
+}
+#git{
+    height: 50px;
+    width: 50px;    
+}
+footer{
+    position: absolute;
+    top: 30rem;
+    left: 30rem;
+    display: block;
 }
