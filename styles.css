@@ -21,9 +21,14 @@ div{
     height: 50px;
     width: 50px;    
 }
+#linkedin{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
 footer{
     position: absolute;
     top: 30rem;
-    left: 30rem;
+    left: 50rem;
     display: block;
 }
