@@ -62,7 +62,8 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+	display: grid;
+	grid-template-rows: 1 1;
 }
 
 /* end Grid Part 1 */
@@ -75,7 +76,7 @@
 }
 
 #grid-section2 .gridboxred {
-
+	
 }
 
 /* end Grid Part 2 */
@@ -84,23 +85,30 @@
 /* Grid Part 3 */
 
 #grid-section3 .grid {
-
+	display: grid;
+	grid-template-columns: 1 1 1;
+	grid-template-rows: auto;
+	grid-template-areas: "header header header" "main main sidebar" "footer footer footer";
 }
 
 #grid-section3 .box1 {
-
+	display: grid;
+	grid-area: header;
 }
 
 #grid-section3 .box2 {
-
+	display: grid;
+	grid-area: main;
 }
 
 #grid-section3 .box3 {
-
+	display: grid;
+	grid-area: sidebar;
 }
 
 #grid-section3 .box4 {
-
+	display: grid;
+	grid-area: footer;
 }
 
 /* end Grid Part 3 */
