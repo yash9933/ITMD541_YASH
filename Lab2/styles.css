@@ -62,7 +62,11 @@
 
 #grid-section1 .grid {
 	display: grid;
-	grid-template-rows: 1 1;
+	column-gap: 20px;
+	row-gap: 20px;
+	grid-template-columns: 1 1 1 1;
+	grid-template-rows: auto;
+	grid-template-areas: ;
 }
 
 /* end Grid Part 1 */
@@ -71,11 +75,20 @@
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
-
+	display: grid;
+	order: 2;
+	grid-area: bluebox;
+	grid-template-columns: 1 1 1;
+	grid-template-rows: 1 1 1;
+	grid-template-areas: ". bluebox bluebox" "redbox redbox ." ". bluebox bluebox";
 }
 
 #grid-section2 .gridboxred {
-	
+	display: grid;
+	grid-area: redbox;
+	grid-template-columns: 1 1 1;
+	grid-template-rows: 1 1 1;
+	grid-template-areas: ". bluebox bluebox" "redbox redbox ." ". bluebox bluebox";
 }
 
 /* end Grid Part 2 */
