@@ -2,8 +2,10 @@
 
 #flex-section1 ul {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /* end Flexbox Part 1 */
@@ -12,23 +14,27 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+	display: flex;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
 }
 
 #flex-section2 li {
-
+	list-style: none;
 }
 
 #flex-section2 .item1 {
-
+	flex: 1;
 }
 
 #flex-section2 .item2 {
-
+	order: 3;
+	flex: 1;
 }
 
 #flex-section2 .item3 {
-
+	flex: 1;
 }
 
 /* end Flexbox Part 2 */
@@ -37,11 +43,17 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #flex-section3 .tags ul {
-
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /* end Flexbox Part 3 */
