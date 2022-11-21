@@ -92,7 +92,8 @@
         opacity: 0.8;
         border-radius: 10px;
         padding: 10px;
-        height: 60%;
+        margin-left: 5%;
+        height: 50%;
         margin-top: 10%;
     }
     div.search{
@@ -123,6 +124,7 @@
     div.info{
         display: flex;
         flex-direction: column;
+        padding-top: 20px;
         /* background-color: red; */
     }
     div.loc{
@@ -138,7 +140,8 @@
         width: 100%;
         justify-content: space-between;
         gap: 10px;
-        padding-top: 10px;
+        padding-top: 30px;
+        padding-left: 15%;
     }
     .lables{
         font-size: 20px;
